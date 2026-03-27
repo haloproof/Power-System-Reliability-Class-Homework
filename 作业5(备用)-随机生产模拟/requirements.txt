@@ -1,0 +1,4 @@
+# Minimal runtime dependencies for edlc.py
+pandas>=1.5
+numpy>=1.22
+matplotlib>=3.5

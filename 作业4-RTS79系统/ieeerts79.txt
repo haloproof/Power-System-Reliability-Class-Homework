@@ -1,0 +1,111 @@
+			The IEEE Reliability Test System (IEEE-RTS)
+			-------------------------------------------
+
+ I. Load data:
+ --------------
+
+ Annual peak load: 2850 MW
+
+ Table 1: Weekly peak load in percent of annual peak
+ ---------------------------------------------------
+
+ W: Week
+ PL: Peak load in percent of annual peak
+
+  (W)  (PL)   (W)  (PL)   (W)  (PL)   (W)  (PL)
+   1   86.2   14   75.0   27   75.5   40   72.4
+   2   90.0   15   72.1   28   81.6   41   74.3
+   3   87.8   16   80.0   29   80.1   42   74.4
+   4   83.4   17   75.4   30   88.0   43   80.0
+   5   88.0   18   83.7   31   72.2   44   88.1
+   6   84.1   19   87.0   32   77.6   45   88.5
+   7   83.2   20   88.0   33   80.0   46   90.9
+   8   80.6   21   85.6   34   72.9   47   94.0
+   9   74.0   22   81.1   35   72.6   48   89.0
+  10   73.7   23   90.0   36   70.5   49   94.2
+  11   71.5   24   88.7   37   78.0   50   97.0
+  12   72.7   25   89.6   38   69.5   51  100.0
+  13   70.4   26   86.1   39   72.4   52   95.2
+
+
+ Table 2: Daily peak load in percent of weekly peak
+ --------------------------------------------------
+
+ PL: Peak load in percent of weekly peak
+
+   (Day)     (PL)
+  Monday      93
+  Tuesday    100
+  Wednesday   98
+  Thursday    96
+  Friday      94
+  Saturday    77
+  Sunday      75
+
+
+ Table 3: Hourly peak load in percent of daily peak
+ --------------------------------------------------
+
+ Winter:      Winter weeks (1-8 and 44-52)
+ Summer:      Summer weeks (18-30)
+ Sprint/Fall: Spring and Fall weeks (9-17 and 31-43)
+
+ Wd: Week day load in percent of daily peak
+ We: Week end load in percent of daily peak
+
+            [Winter]       [Summer]    [Spring/Fall]
+   (Hour)  (Wd) (We)	  (Wd) (We)	 (Wd) (We)
+  12-1 am   67   78	   64   74	  63   75
+  1-2       63   72	   60   70	  62   73
+  2-3       60   68	   58   66	  60   69
+  3-4       59   66	   56   65	  58   66
+  4-5       59   64	   56   64	  59   65
+  5-6       60   65	   58   62	  65   65
+  6-7       74   66	   64   62	  72   68
+  7-8       86   70	   76   66	  85   74
+  8-9       95   80	   87   81	  95   83
+  9-10      96   88	   95   86	  99   89
+  10-11     96   90	   99   91	 100   92
+  11-Noon   95   91	  100   93	  99   94
+  Noon-1 pm 95   90	   99   93	  93   91
+  1-2       95   88	  100   92	  92   90
+  2-3       93   87	  100   91	  90   90
+  3-4       94   87	   97   91	  88   86
+  4-5       99   91	   96   92	  90   85
+  5-6      100  100	   96   94	  92   88
+  6-7      100   99	   93   95	  96   92
+  7-8       96   97	   92   95	  98  100
+  8-9       91   94	   92  100	  96   97
+  9-10      83   92	   93   93	  90   95
+  10-11     73   87	   87   88	  80   90
+  11-12     63   81	   72   80	  70   85
+
+
+ II. Generation System data:
+ ---------------------------
+
+ Type: Type of generating units
+ Cap:  Capacity of each unit (MW)
+ N:    Number of units
+ MTTF: Mean time to failure (hours)
+ MTTR: Mean time to repair (hours)
+
+ (Type)  (Cap)  (N) (MTTF) (MTTR)
+ Oil       12    5   2940    60
+ Oil       20    4    450    50
+ Hydro     50    6   1980    20
+ Coal      76    4   1960    40
+ Oil      100    3   1200    50
+ Coal     155    4    960    40
+ Oil      197    3    950    50
+ Coal     350    1   1150   100
+ Nuclear  400    2   1100   150
+
+
+Reference:
+----------
+	IEEE Commmitte Report, "IEEE Reliability Test System", IEEE
+	Transactions on Power Apparatus and Systems, Vol. PAS-98,
+	No. 6, pp. 2047-2054, Nov/Dec 1979.
+
+

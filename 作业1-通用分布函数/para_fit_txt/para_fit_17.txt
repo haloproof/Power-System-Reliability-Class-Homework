@@ -1,0 +1,9 @@
+--- Fitting Parameters ---
+Gaussian: mu=0.6535, std=0.0621
+Beta: a=37.3770, b=19.8528
+Versatile: a=48.0573, b=0.6653, c=0.6711
+
+--- RMSE Evaluation ---
+Gaussian RMSE:  0.03092
+Beta RMSE:      0.03110
+Versatile RMSE: 0.01091 (Optimal)
